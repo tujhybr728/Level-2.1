@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C2DZ_Lesson2
 {
-        class Proffesional
+        class Proffesional // класс для рандомной генерации имён. но из-за ошибок работает криво.
     {
         public string[] ListName = new string[] { "Борис", "Владимир", "Александр", "Иван", "Григорий", "Евгений" };
         public string[] ListSurname = new string[] { "Иванов", "Гришников", "Кожевников", "Горшечкинов", "Тисов", "Шелуинов" };

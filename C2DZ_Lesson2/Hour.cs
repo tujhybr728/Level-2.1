@@ -15,7 +15,7 @@ namespace C2DZ_Lesson2
              Sum = 20.8 * 8 * s;
         }
 
-        public override string Money()
+        public override string Money() //метод модифицирован для обсчёта
         {
             string s = Name + " " + Sum;
             return s;

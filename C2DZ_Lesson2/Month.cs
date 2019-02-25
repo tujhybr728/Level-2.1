@@ -15,7 +15,7 @@ namespace C2DZ_Lesson2
              Sum = st;
         }
 
-        public override string Money()
+        public override string Money() //метод модифицирован для обсчёта
         {
             string s = Name + " " + Sum;
             return s;
